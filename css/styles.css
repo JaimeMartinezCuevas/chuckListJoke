@@ -1,31 +1,65 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
+  background-color: #000;
   margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 100vh;
+  /* background-image: url('https://thumbnails.texastribune.org/aKvtIx_jKc_eYL_-LODNiFQWl0k=/850x570/smart/filters:quality(75)/https://static.texastribune.org/media/images/chuck-norris1.jpg');
+  background-repeat: repeat;
+  background-size: cover; */
 }
 
 h1 {
-  color: #333;
+  color: #fff;
+  margin-top: 80px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+.botones {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 30px;
 }
 
 button {
   margin-top: 10px;
-  padding: 8px 16px;
-  font-size: 16px;
-  background-color: #007bff;
+  padding: 20px 24px;
+  font-size: 20px;
+  background-color: rgb(55, 55, 55);
   color: #fff;
   border: none;
   cursor: pointer;
+  border-radius: 50px;
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #fff;
+  color: #000;
 }
 
+ul {
+  list-style: none;
+  padding: 10px;
+  padding-bottom: 80px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
 
-
+ul li {
+  text-align: left;
+  background-color: rgb(55, 55, 55);
+  color: #fff;
+  font-weight: bold;
+  font-size: medium;
+  padding: 20px;
+  border-radius: 5px;
+  width: 100%;
+}
